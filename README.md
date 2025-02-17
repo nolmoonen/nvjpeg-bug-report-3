@@ -1,5 +1,8 @@
 # nvjpeg-bug-report-3
 
+> [!CAUTION]
+> Thanks to the nvJPEG team, this bug has been fixed in CUDA 12.8.
+
 Demonstrates `nvjpegDecodeJpegHost` reading outside the bit-stream allocation. The reproducer encodes a simple image and decodes a truncated part of the encoded JPEG stream.
 
 Tested with CUDA 12.2 driver version 535.113.01 on Ubuntu 22.04.1.
